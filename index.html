@@ -171,9 +171,18 @@ footer{padding:28px 20px 38px;text-align:center;color:var(--muted-fg);font-size:
   <script>
     // ===== CONFIGURAÇÃO HOTMART =====
     // Cola aqui os links reais gerados pela tua configuração de OTO.
-    const ACCEPT_URL = "COLE_AQUI_LINK_ACEITAR_UPSELL_1";
-    const REFUSE_URL = "COLE_AQUI_LINK_RECUSAR_UPSELL_1";
 
+<!-- HOTMART - Sales Funnel Widget -->
+<div id="hotmart-sales-funnel"></div>
+
+<script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+<script>
+  checkoutElements
+    .init('salesFunnel')
+    .mount('#hotmart-sales-funnel')
+</script>
+<!-- HOTMART - Sales Funnel Widget -->
+    
     function bindLink(id, url, label) {
       document.getElementById(id).addEventListener("click", function(e) {
         e.preventDefault();

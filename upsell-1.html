@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#FFFDF5">
+  <title>Sessões Prontas Neuro Visual | Oferta especial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{
+  --bg:#FFFDF5;--fg:#1E293B;--accent:#8B5CF6;--pink:#F472B6;
+  --mint:#34D399;--amber:#FBBF24;--muted:#F1F5F9;--muted-fg:#64748B;--line:#E2E8F0;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font-family:"Plus Jakarta Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.55;
+}
+a{color:inherit}
+.offerbar{
+  position:sticky;top:0;z-index:50;background:var(--amber);border-bottom:2px solid var(--fg);
+  text-align:center;padding:9px 16px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase
+}
+main{overflow:hidden}
+.section{position:relative;padding:58px 20px 72px}
+.container{max-width:880px;margin:0 auto;position:relative;z-index:2}
+.dotgrid{
+  position:absolute;inset:24px max(18px,calc((100vw - 920px)/2));border-radius:30px;z-index:0;
+  background-image:radial-gradient(var(--line) 1.6px,transparent 1.6px);background-size:18px 18px
+}
+.progress{display:flex;justify-content:center;gap:8px;margin-bottom:18px}
+.step{width:42px;height:8px;border:2px solid var(--fg);border-radius:999px;background:white}
+.step.active{background:var(--accent)}
+.eyebrow{
+  width:max-content;max-width:100%;margin:0 auto 18px;padding:7px 14px;border:2px solid var(--fg);
+  border-radius:999px;background:var(--pink);font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
+  box-shadow:3px 3px 0 var(--fg);text-align:center
+}
+h1,h2,h3{
+  font-family:Outfit,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  margin:0;color:var(--fg)
+}
+h1{font-size:clamp(38px,8vw,66px);line-height:.98;font-weight:800;letter-spacing:-.035em;text-align:center}
+.accent{color:var(--accent)}
+.lead{
+  max-width:720px;margin:24px auto 0;text-align:center;font-size:18px;color:var(--muted-fg)
+}
+.story{
+  margin:38px auto 0;background:#fff;border:2px solid var(--fg);border-radius:24px;padding:25px;
+  box-shadow:8px 8px 0 var(--line)
+}
+.story p{margin:0 0 15px;font-size:16px}
+.story p:last-child{margin-bottom:0}
+.highlight{
+  display:inline;background:linear-gradient(transparent 64%, rgba(251,191,36,.65) 64%);
+  font-weight:800
+}
+.price-card{
+  margin:26px auto 0;background:#fff;border:2px solid var(--fg);border-radius:24px;padding:24px 20px;
+  text-align:center;box-shadow:8px 8px 0 var(--line);max-width:620px
+}
+.old{font-weight:700;color:var(--muted-fg);font-size:16px}
+.old s{text-decoration-thickness:2px}
+.price{font-family:Outfit,system-ui,sans-serif;font-size:clamp(48px,10vw,72px);line-height:1;font-weight:900;margin:5px 0}
+.paynote{font-size:14px;color:var(--muted-fg);font-weight:650}
+.results{margin:28px auto 0;max-width:720px}
+.results h2{text-align:center;font-size:28px;line-height:1.08;margin-bottom:18px}
+.result{
+  display:flex;gap:14px;align-items:flex-start;background:#fff;border:2px solid var(--fg);
+  border-radius:20px;padding:17px 18px;margin:12px 0;box-shadow:5px 5px 0 var(--line)
+}
+.check{
+  flex:0 0 32px;height:32px;border:2px solid var(--fg);border-radius:50%;background:var(--mint);
+  display:grid;place-items:center;font-weight:900
+}
+.result strong{display:block;margin-bottom:2px}
+.cta-wrap{max-width:690px;margin:30px auto 0;text-align:center}
+.cta{
+  width:100%;display:inline-flex;align-items:center;justify-content:center;text-align:center;
+  min-height:62px;padding:16px 28px;border:2px solid var(--fg);border-radius:999px;background:var(--accent);
+  color:#fff;text-decoration:none;font-size:18px;font-weight:850;box-shadow:5px 5px 0 var(--fg);
+  transition:transform .25s cubic-bezier(.34,1.56,.64,1),box-shadow .25s cubic-bezier(.34,1.56,.64,1)
+}
+.cta:hover{transform:translate(-2px,-2px);box-shadow:7px 7px 0 var(--fg)}
+.refuse{
+  display:inline-block;margin-top:16px;color:var(--muted-fg);font-size:13px;text-decoration:underline;
+  text-underline-offset:3px
+}
+.trust{
+  margin:28px auto 0;display:flex;justify-content:center;gap:10px 18px;flex-wrap:wrap;
+  color:var(--muted-fg);font-size:13px;font-weight:700
+}
+.trust span{display:inline-flex;align-items:center;gap:6px}
+.note{
+  margin:34px auto 0;max-width:700px;border:2px solid var(--fg);border-radius:20px;padding:16px 18px;
+  background:var(--muted);font-size:13px;color:var(--muted-fg)
+}
+footer{padding:28px 20px 38px;text-align:center;color:var(--muted-fg);font-size:12px}
+@media (max-width:640px){
+  .section{padding:42px 18px 56px}
+  .dotgrid{display:none}
+  .story{padding:20px}
+  .lead{font-size:16px}
+  .price-card{padding:22px 16px}
+  .result{padding:15px}
+  .cta{font-size:16px;min-height:58px;padding:14px 18px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+  <div class="offerbar">A tua Biblioteca já está garantida · Falta só decidir esta oferta</div>
+  <main>
+    <section class="section">
+      <div class="dotgrid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="progress" aria-label="Progresso">
+          <span class="step active"></span>
+          <span class="step "></span>
+          <span class="step "></span>
+          <span class="step "></span>
+        </div>
+        <div class="eyebrow">Oferta disponível apenas nesta página</div>
+        <h1>Os materiais já são teus. Agora falta saber exatamente <span class="accent">o que aplicar</span>.</h1>
+        <p class="lead">A tua Biblioteca Neuro Visual já está garantida. Esta oferta serve para cortar a parte que ainda toma tempo: decidir o que usar e em que ordem.</p>
+
+        <div class="story"><p>Ter centenas de recursos disponíveis ajuda. Mas, mesmo assim, podes abrir uma sessão e ainda perder tempo a escolher atividades, decidir a sequência e perceber o que imprimir.</p>
+<p>As <strong>Sessões Prontas Neuro Visual</strong> foram criadas para resolver exatamente isso.</p>
+<p>Abres o plano, separas os materiais indicados e segues uma estrutura pronta. <span class='highlight'>Sem começar o planeamento do zero.</span></p></div>
+
+        <div class="price-card">
+          <div class="old">De <s>9,90 €</s></div>
+          <div class="price">4,90 €</div>
+          <div class="paynote">Pagamento único · Acesso digital imediato</div>
+        </div>
+
+        <div class="results">
+          <h2>O que isto muda nas tuas sessões</h2>
+          <div class="result"><div class="check">✓</div><div><strong>Chegar à sessão já a saber o que trabalhar</strong> sem começares o planeamento do zero.</div></div>
+<div class="result"><div class="check">✓</div><div><strong>Escolher rapidamente os recursos certos da Biblioteca</strong> em vez de perderes tempo entre dezenas de ficheiros.</div></div>
+<div class="result"><div class="check">✓</div><div><strong>Seguir uma sequência prática de atividades</strong> e deixar a sessão organizada antes de a criança chegar.</div></div>
+        </div>
+
+        <div class="cta-wrap">
+          <!-- HOTMART - Sales Funnel Widget -->
+          <div id="hotmart-sales-funnel"></div>
+          <!-- HOTMART - Sales Funnel Widget -->
+        </div>
+
+        <div class="trust">
+          <span>✓ 30 dias de garantia</span>
+          <span>✓ Acesso imediato</span>
+          <span>✓ Compra segura</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>Biblioteca Neuro Visual · Oferta pós-compra</footer>
+  <!-- HOTMART - Sales Funnel Widget -->
+  <script src="https://checkout.hotmart.com/lib/hotmart-checkout-elements.js"></script>
+  <script>
+    checkoutElements
+      .init('salesFunnel')
+      .mount('#hotmart-sales-funnel');
+  </script>
+  <!-- HOTMART - Sales Funnel Widget -->
+</body>
+</html>
